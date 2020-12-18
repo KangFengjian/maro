@@ -34,7 +34,9 @@ in transportation, virtual machine provisioning in data centers, and asset manag
 Besides [Reinforcement Learning](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf) (RL),it also supports other planning/decision mechanisms, such as
 [Operations Research](https://en.wikipedia.org/wiki/Operations_research).
 
-
+MARO平台是一个基于“强化学习即服务”模式的实体，是用来做现实世界资源优化的。
+可用于很多重要的工业领域，如如物流中的集装箱库存管理，自行车在交通中的重新定位，数据中心的虚拟机供应，金融中的资产管理。
+除了强化学习(RL)，它还支持其他计划/决策机制，如运筹学。
 
 Key Components of MARO:
 
@@ -44,6 +46,12 @@ wheels for building new scenarios.
 agent, RL algorithms, learner, actor, and various shapers.
 - Distributed toolkit: it provides distributed communication components, interface
 of user-defined functions for message auto-handling, cluster provision, and job orchestration.
+
+MARO的主要组成部分：
+
+- 仿真工具箱：提供了一些预先定义的脚本和用于构建新脚本的轮子；
+- 强化学习工具箱：提供了强化学习的全栈的抽象概念，如agent manager,agent, RL algorithms, learner, actor, and various shapers.
+- 分布式工具箱：
 
 ![MARO Key Components](./docs/source/images/maro_overview.svg)
 
